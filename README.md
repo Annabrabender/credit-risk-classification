@@ -5,7 +5,7 @@ Code can be found in the folder Credit_Risk in the file credit_risk_classificati
 
 
 
-# Module 12 Credit Risk Report 
+# Module 20 Credit Risk Report 
 
 ## Overview of the Analysis
 
@@ -13,7 +13,7 @@ Code can be found in the folder Credit_Risk in the file credit_risk_classificati
 
 The purpose of this analysis was to evaluate a model based on loan risk. By using a dataset of historical lending activity from a peer-to-peer lending services company to build a model than can identify creditworthiness of borrowers. The variable we are trying to predict is loan status, which was either a healthy loan or a high risk loan. 
 
-The data in the dataset was split into training and testing sets, and the loan status was isolated as a variable. A losgitics regression model was done using the original data ( Machine Learning Model 1). Then a logistic regression model was done with the resampled training data by using the RandomOverSampler module from the imbalanced-learn libarary to resample the data (Machine Learning Model 2). It was confirmed that the labels then had an equal number of datapoints. To eveaulate the models performance with both the original data and the resampled data, I calculated the accuracy score of the model, created a confusion matrix, and printed the classification report.
+The data in the dataset was split into training and testing sets, and the loan status was isolated as a variable. A logistic regression model was done using the original data ( Machine Learning Model 1). Then a logistic regression model was done with the resampled training data by using the RandomOverSampler module from the imbalanced-learn libarary to resample the data (Machine Learning Model 2). It was confirmed that the labels then had an equal number of datapoints. To eveaulate the models performance with both the original data and the resampled data, I calculated the accuracy score of the model, created a confusion matrix, and printed the classification report.
 
 
 
@@ -45,7 +45,7 @@ Summarize the results of the machine learning models, and include a recommendati
 If you do not recommend any of the models, please justify your reasoning.
 
 
- The Machine leanring model 1 does an exceptional job at prediciton the healthy loan '0'. The precision, recall, and f1-score are all 1.00 which is the best it could be. As for the high-risk loan '0' the score are less high but still very good. The model could still imporve closer predictions for the high risk loans.
+ The Machine learning model 1 does an exceptional job at prediciton the healthy loan '0'. The precision, recall, and f1-score are all 1.00 which is the best it could be. As for the high-risk loan '0' the score are less high but still very good. The model could still imporve closer predictions for the high risk loans.
  
  Fitted with the oversampled data, the Machine Learning Model 2 is well better suited to predict the high risk loan label, and the healthy loan label precition is still very high.
  
