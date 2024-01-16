@@ -1,5 +1,9 @@
 # credit-risk-classification
 
+
+
+Code can be found in the folder Credit_Risk in the file credit_risk_classification. The full report can be found in the file credit_risk_report. Data can be found in the Resources folder in the file lending_data.
+
 Module 12 Credit Risk Report
 Overview of the Analysis
 The purpose of this analysis was to evaluate a model based on loan risk. By using a dataset of historical lending activity from a peer-to-peer lending services company to build a model than can identify creditworthiness of borrowers. The variable we are trying to predict is loan status, which was either a healthy loan or a high risk loan.
