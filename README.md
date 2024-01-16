@@ -13,7 +13,7 @@ Code can be found in the folder Credit_Risk in the file credit_risk_classificati
 
 The purpose of this analysis was to evaluate a model based on loan risk. By using a dataset of historical lending activity from a peer-to-peer lending services company to build a model than can identify creditworthiness of borrowers. The variable we are trying to predict is loan status, which was either a healthy loan or a high risk loan. 
 
-The data in the dataset was split into training and testing sets, and the loan status was isolated as a variable. A losgitics regression model was done using the original data. Then a logistic regression model was done with the resampled training data by using the RandomOverSampler module from the imbalanced-learn libarary to resample the data. It was confirmed that the labels then had an equal number of datapoints. To eveaulate the models performance with both the original data and the resampled data, I calculated the accuracy score of the model, created a confusion matrix, and printed the classification report.
+The data in the dataset was split into training and testing sets, and the loan status was isolated as a variable. A losgitics regression model was done using the original data ( Machine Learning Model 1). Then a logistic regression model was done with the resampled training data by using the RandomOverSampler module from the imbalanced-learn libarary to resample the data (Machine Learning Model 2). It was confirmed that the labels then had an equal number of datapoints. To eveaulate the models performance with both the original data and the resampled data, I calculated the accuracy score of the model, created a confusion matrix, and printed the classification report.
 
 
 
