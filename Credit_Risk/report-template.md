@@ -17,31 +17,17 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
   
-  precision    recall  f1-score   support
+   * Accuracy of this model is 0.99. This accuracy score tells us that the model correctly classifies 99% of the instances.
+   * For healthy loans which were labeled '0' the precision score is 1.00 which means that the model accurately identifies positives with no false positives. For high risk loans which were labeled '1' the precision score is 0.87 which means that it is not perfect but moderatly good at correctly identifying high risk loans.
+   * For healthy loans the recall score is 1.00 which means that the model is has a perfect ability at correctly identifying positive instances. For high risk loans the recall score is 0.89 which means it is not perfect but still has a moderatly high ability to correctly indentify positive instances.
 
-           0       1.00      1.00      1.00     18759
-           1       0.87      0.89      0.88       625
-
-    accuracy                           0.99     19384
-   macro avg       0.94      0.94      0.94     19384
-weighted avg       0.99      0.99      0.99     19384
-
-
-
-
+  
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-  
-   precision    recall  f1-score   support
 
-           0       0.99      0.99      0.99     56277
-           1       0.99      0.99      0.99     56277
-
-    accuracy                           0.99    112554
-   macro avg       0.99      0.99      0.99    112554
-weighted avg       0.99      0.99      0.99    112554 precision    recall  f1-score   support
-
-Fitted with the oversampled data, the logistic regression model is well better suited to predict the high risk loan label, and the healthy loan label precition is still very high
+  * Accuracy of this model is 0.99. This accuracy score tells us that the model correctly classifies 99% of the instances.
+   * For healthy loans which were labeled '0' the precision score is 0.99 which means that the model accurately identifies positives with almost no false positives. For high risk loans which were labeled '1' the precision score is 0.99 which also means that the model accurately identifies positives with almost no false positives.
+   * For healthy loans the recall score is 0.99  which means that the model has a almost perfect ability at correctly identifying positive instances for loans labeled healthy. For high risk loans the recall score is 0.99  which means that the model  has a almost perfect ability at correctly identifying positive instances for loans labeled high risk.
           
 ## Summary
 
